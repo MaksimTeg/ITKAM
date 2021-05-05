@@ -1,0 +1,18 @@
+.itam {
+  color: rgb(244, 243, 250);
+}
+img {
+  width: 40px;
+  border-radius: 15px;
+}
+.selectedPage {
+  font-weight: bold;
+}
+.userPhoto {
+  width: 100px;
+  height: 100px;
+}
+
+.selectedPage {
+  font-weight: bold;
+}

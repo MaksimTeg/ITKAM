@@ -1,0 +1,41 @@
+.app_wrapper {
+  max-width: 1200px;
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "nav article"
+    "footer footer";
+  grid-template-rows: 70px 1fr 30px;
+  grid-template-columns: 20% 1fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  height: 100vh;
+  margin: 0 auto;
+}
+.wrapper_Dialogs {
+  min-width: 450px;
+  padding: 1.2em;
+  grid-area: article;
+  background-color: rgba(47, 107, 104, 0.301);
+}
+.wrapper_Footer {
+  padding: 1.2em;
+  grid-area: footer;
+  background-color: rgba(47, 78, 107, 0.747);
+}
+.wrapper_Header {
+  background-color: rgb(199, 233, 199);
+  grid-area: header;
+}
+.wrapper_Nav {
+  padding: 1.2em;
+  grid-area: nav;
+  background-color: darkolivegreen;
+}
+.wrapper_Article {
+  min-width: 450px;
+  padding: 1.2em;
+  grid-area: article;
+  background-color: rgba(47, 107, 104, 0.301);
+}
+/* Stack the layout on small devices/viewports. */

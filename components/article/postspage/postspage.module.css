@@ -1,0 +1,13 @@
+.postBlock {
+  padding: 10px;
+}
+.textarea {
+  width: 60%;
+}
+.button {
+  width: 30%;
+}
+.buttonItem {
+  text-align: right;
+  padding-right: 100px;
+}
